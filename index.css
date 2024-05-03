@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: pink;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.head {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.backgraund {
+    position: absolute;
+    z-index: 0;
+    top: -110px;
+}
+.front {
+    z-index: 1;
+}
+.img {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 99; */
+}
+
+.icon {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 18px;
+    align-items: center;
+    display: inline-block;
+}
+.icons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.icons .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; 
+
+}
+
